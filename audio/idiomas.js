@@ -1,0 +1,1 @@
+idiomas = ["español", "catalan", "portugues"];
