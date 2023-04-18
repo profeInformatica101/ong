@@ -110,41 +110,7 @@ VALUES
 ('Campaña de prevención del cáncer', 'Campaña para la prevención del cáncer de mama', '2022-10-01', '2022-10-31', 'Finalizado', 6),
 ('Proyecto de formación de emprendedores', 'Proyecto para la formación de emprendedores en el sector sostenible', '2021-07-01', '2022-06-30', 'En progreso', 9);
 
--- Insertar en la tabla AsignacionVoluntariosONGs
-INSERT INTO AsignacionVoluntariosONGs (voluntario_ID, ONG_ID)
-VALUES
-(1, 1),
-(2, 2),
-(3, 3),
-(4, 1),
-(5, 4),
-(6, 2),
-(7, 3),
-(8, 1),
-(9, 5),
-(10, 4),
-(11, 6),
-(12, 7),
-(13, 8),
-(14, 2),
-(15, 3),
-(16, 1),
-(17, 5),
-(18, 6),
-(19, 7),
-(20, 8),
-(21, 9),
-(22, 10),
-(23, 1),
-(24, 2),
-(25, 3),
-(26, 4),
-(27, 5),
-(28, 6),
-(29, 7),
-(30, 8);
-
--- Insertar en la tabla AsignacionVoluntariosProyectos
+-- Corrección en la inserción de datos de la tabla AsignacionVoluntariosProyectos
 INSERT INTO AsignacionVoluntariosProyectos (voluntario_ID, proyecto_ID)
 VALUES
 (1, 1),
@@ -176,11 +142,7 @@ VALUES
 (27, 5),
 (28, 6),
 (29, 7),
-(30, 8);
-
--- Insertar en la tabla AsignacionVoluntariosProyectos (continuación)
-INSERT INTO AsignacionVoluntariosProyectos (voluntario_ID, proyecto_ID)
-VALUES
+(30, 8),
 (1, 3),
 (2, 4),
 (3, 5),
@@ -211,4 +173,3 @@ VALUES
 (28, 10),
 (29, 1),
 (30, 2);
-
